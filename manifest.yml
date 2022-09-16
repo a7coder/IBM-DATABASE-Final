@@ -1,11 +1,11 @@
   applications:
   - name: onlinecourse
     routes:
-      - route: finalcloud.us-south.cf.appdomain.cloud
+      - route: onlinecourse-a7coder.au-syd.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
     routes:
-      - route: finalcloud.us-south.cf.appdomain.cloud/static
+      - route: onlinecourse-a7coder.au-syd.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
